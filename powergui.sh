@@ -31,6 +31,7 @@ function gui(){
     FALSE "cool" "Cool Power Profile" \
 	TRUE "balanced" "Balanced Power Profile" \
 	FALSE "performance" "Performance Power Profile" )
+	NOINPUTSET=false
 }
 
 function terminal(){
@@ -38,10 +39,11 @@ function terminal(){
 	then
 		echo "${cyan}Showing terminal selection"
 	fi
-	ADVSEL=$(whiptail --title "HP OMEN Profile selection" --fb --menu "Select option" 40 20 5 \
+	ADVSEL=$(whiptail --title "HP OMEN Profile selection" --fb --menu "Select option" 11 50 3 \
 	"cool" "Cool Power Profile" \
 	"balanced" "Balanced Power Profile" \
 	"performance" "Performance Power Profile" 3>&1 1>&2 2>&3)
+	NOINPUTSET=false
 }
 
 
