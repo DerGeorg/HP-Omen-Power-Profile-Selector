@@ -22,13 +22,16 @@ sudo apt install linux-generic-5.17
 sudo visudo
 ```
 #### Inside visudo
-| :exclamation:  You have to change username and /path/to/powergui.sh  |
-|-----------------------------------------|
 
 Add this line inside visudo
 ```bash
 username ALL=(ALL) NOPASSWD: /path/to/powergui.sh
 ```
+
+| :exclamation:  You have to change username and /path/to/powergui.sh  |
+|-----------------------------------------|
+
+
 After saving with F2 and exiting with F10, you are able to run `sudo ./powergui.sh` without the need of a password.
 This is needed to be able to use `sudo ./powergui.sh -p -g` as an keyboard shortcut, or on startup
 ## USAGE
