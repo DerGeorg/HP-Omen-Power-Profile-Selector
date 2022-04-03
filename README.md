@@ -5,10 +5,17 @@ Selecting HP Omen power Profiles
 * balanced
 * performance
 
-
-
-| :exclamation:  Compatible with Kernel Version newer than 5.16   |
+| :exclamation:  Compatible with Kernel Version >= 5.15   |
 |-----------------------------------------|
+## Testet on
+* Ubuntu 20.04
+* Kernel 5.17.1-051701-generic
+### Kernel installation in Ubuntu 20.04
+```bash
+sudo apt install linux-generic-5.17
+```
+
+
 
 ## Setup 
 ```bash
