@@ -7,14 +7,22 @@ Selecting HP Omen power Profiles
 
 
 
-| :exclamation:  Compatible with Kernel Version newer than 5.16   |
+| :exclamation:  Compatible with Kernel Version >= 5.15   |
 |-----------------------------------------|
 
+## Testet on
+* Ubuntu 20.04
+* Kernel 5.17.1-051701-generic
+
 ## Installation 
+### Kernel installation in Ubuntu 20.04
+```bash
+sudo apt install linux-generic-5.17
+```
+### CHOWN platform_profile
 ```bash
 sudo chown $USER /sys/firmware/acpi/platform_profile
 ```
-
 ## USAGE
 	-t, --txtonly 		 Text only mode
 	-g, --gui 		 GUI Mode
