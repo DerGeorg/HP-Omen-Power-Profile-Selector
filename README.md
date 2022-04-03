@@ -24,7 +24,7 @@ sudo visudo
 #### Inside visudo
 | :exclamation:  You have to change username and /path/to/powergui.sh  |
 |-----------------------------------------|
-
+Add this line inside visudo
 ```bash
 username ALL=(ALL) NOPASSWD: /path/to/powergui.sh
 ```
