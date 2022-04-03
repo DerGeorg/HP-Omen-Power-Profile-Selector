@@ -41,43 +41,43 @@ This is needed to be able to use `sudo ./powergui.sh -p -g` as an keyboard short
 ### Examples
 #### GUI MODE
 ```bash
-./powergui.sh -g                      #Select via gui & Notification
-./powergui.sh -g -t                   #Select via gui & Notification & Text output
-./powergui.sh -g -p                   #Select performance mode & Notification
-./powergui.sh -g -b                   #Select balanced mode & Notification
-./powergui.sh -g -c                   #Select cool mode & Notification
-./powergui.sh -g -s performance       #Select performance mode & Notification
-./powergui.sh -g -s balanced          #Select balanced mode & Notification
-./powergui.sh -g -s cool              #Select cool mode & Notification
+sudo ./powergui.sh -g                      #Select via gui & Notification
+sudo ./powergui.sh -g -t                   #Select via gui & Notification & Text output
+sudo ./powergui.sh -g -p                   #Select performance mode & Notification
+sudo ./powergui.sh -g -b                   #Select balanced mode & Notification
+sudo ./powergui.sh -g -c                   #Select cool mode & Notification
+sudo ./powergui.sh -g -s performance       #Select performance mode & Notification
+sudo ./powergui.sh -g -s balanced          #Select balanced mode & Notification
+sudo ./powergui.sh -g -s cool              #Select cool mode & Notification
 ```
 
 #### Terminal Mode
 ```bash
-./powergui.sh                      #Select via Terminal & Terminal Notification 
-./powergui.sh -t                   #Select via Terminal & Text output
-./powergui.sh -p                   #Select performance mode & Terminal Notification 
-./powergui.sh -b                   #Select balanced mode & Terminal Notification 
-./powergui.sh -c                   #Select cool mode & Terminal Notification 
-./powergui.sh -s performance       #Select performance mode & Terminal Notification 
-./powergui.sh -s balanced          #Select balanced mode & Terminal Notification 
-./powergui.sh -s cool              #Select cool mode & Terminal Notification 
+sudo ./powergui.sh                      #Select via Terminal & Terminal Notification 
+sudo ./powergui.sh -t                   #Select via Terminal & Text output
+sudo ./powergui.sh -p                   #Select performance mode & Terminal Notification 
+sudo ./powergui.sh -b                   #Select balanced mode & Terminal Notification 
+sudo ./powergui.sh -c                   #Select cool mode & Terminal Notification 
+sudo ./powergui.sh -s performance       #Select performance mode & Terminal Notification 
+sudo ./powergui.sh -s balanced          #Select balanced mode & Terminal Notification 
+sudo ./powergui.sh -s cool              #Select cool mode & Terminal Notification 
 ```
 
 #### Text only Mode
 ```bash
-./powergui.sh -t                     #Select via Terminal & Text output
-./powergui.sh -t -g                   #Select via Gui & Text output
-./powergui.sh -t -p                   #Select performance mode & Text output
-./powergui.sh -t -b                   #Select balanced mode & Text output
-./powergui.sh -t -c                   #Select cool mode & Text output
-./powergui.sh -t -s performance       #Select performance mode & Text output
-./powergui.sh -t -s balanced          #Select balanced mode & Text output
-./powergui.sh -t -s cool              #Select cool mode & Text output
+sudo ./powergui.sh -t                     #Select via Terminal & Text output
+sudo ./powergui.sh -t -g                   #Select via Gui & Text output
+sudo ./powergui.sh -t -p                   #Select performance mode & Text output
+sudo ./powergui.sh -t -b                   #Select balanced mode & Text output
+sudo ./powergui.sh -t -c                   #Select cool mode & Text output
+sudo ./powergui.sh -t -s performance       #Select performance mode & Text output
+sudo ./powergui.sh -t -s balanced          #Select balanced mode & Text output
+sudo ./powergui.sh -t -s cool              #Select cool mode & Text output
 ```
 
 #### Help
 ```bash
-./powergui.sh -h
+sudo ./powergui.sh -h
 ```
 
 ## Screenshots
