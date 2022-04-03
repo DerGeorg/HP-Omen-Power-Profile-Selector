@@ -148,7 +148,7 @@ function selectProfile(){
 		echo "${cyan}Set Platform Profile now"
 	fi
 
-	echo $var_a > /sys/firmware/acpi/platform_profile
+	sudo echo $var_a > /sys/firmware/acpi/platform_profile
 	
 	if $VERBOSE
 	then

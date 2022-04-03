@@ -10,11 +10,19 @@ Selecting HP Omen power Profiles
 | :exclamation:  Compatible with Kernel Version newer than 5.16   |
 |-----------------------------------------|
 
-## Installation 
+## Setup 
 ```bash
-sudo chown $USER /sys/firmware/acpi/platform_profile
+sudo visudo
 ```
+#### Inside visudo
+| :exclamation:  You have to change username and /path/to/powergui.sh  |
+|-----------------------------------------|
 
+```bash
+username ALL=(ALL) NOPASSWD: /path/to/powergui.sh
+```
+After saving with F2 and exiting with F10, you are able to run `sudo ./powergui.sh` without the need of a password.
+This is needed to be able to use `sudo ./powergui.sh -p -g` as an keyboard shortcut, or on startup
 ## USAGE
 	-t, --txtonly 		 Text only mode
 	-g, --gui 		 GUI Mode
