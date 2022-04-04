@@ -26,8 +26,8 @@ function gui(){
 		echo "${cyan}Showing Gui selection list"
 	fi
 	ADVSEL=$(zenity --list --radiolist --height=275 --width=400 \
-	--title="Choose the Bugs You Wish to View" \
-  	--column="Profile" 	--column="Profile" --column="Description"\
+	--title="HP OMEN Profile selection" \
+  	--column="" 	--column="Profile" --column="Description"\
     FALSE "cool" "Cool Power Profile" \
 	TRUE "balanced" "Balanced Power Profile" \
 	FALSE "performance" "Performance Power Profile" )
