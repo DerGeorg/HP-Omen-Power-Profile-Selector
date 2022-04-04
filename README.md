@@ -92,7 +92,7 @@ sudo ./powergui.sh -h
 ![Terminal Notification](https://user-images.githubusercontent.com/22521386/161427688-5c27a17f-ea66-4126-9a0e-5c4eb556c094.png)
 
 ### Gui input
-![Gui input](https://user-images.githubusercontent.com/22521386/161427706-dd7ec139-32d8-46d6-b6d7-d7736ddbd2ff.png)
+![Gui input](https://user-images.githubusercontent.com/22521386/161613254-170179fd-1a32-4b0f-b464-3ad823114b14.png)
 
 ### Gui Notification
 ![Gui Notification](https://user-images.githubusercontent.com/22521386/161427725-0c06447f-be99-4a15-bdc9-eb181809795b.png)
